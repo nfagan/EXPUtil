@@ -6,7 +6,7 @@
 //  Copyright © 2017 Nick Fagan. All rights reserved.
 //
 
-#include "spinlock.hpp"
+#include "EXPUtil/thread/spinlock.hpp"
 #include <iostream>
 
 EXP::spinlock::spinlock()
