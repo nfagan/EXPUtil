@@ -10,6 +10,7 @@
 		01427BC81FB75C5C006C09EF /* commitable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01427BC61FB75C5C006C09EF /* commitable.hpp */; };
 		0156F1961FB1421B00169154 /* spinlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0156F1941FB1421B00169154 /* spinlock.cpp */; };
 		0156F1971FB1421B00169154 /* spinlock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0156F1951FB1421B00169154 /* spinlock.hpp */; };
+		0179ABED1FB9F5510024AB9E /* proplock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0179ABEC1FB9F54E0024AB9E /* proplock.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		0156F1831FB1411E00169154 /* libEXPUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEXPUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0156F1941FB1421B00169154 /* spinlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spinlock.cpp; sourceTree = "<group>"; };
 		0156F1951FB1421B00169154 /* spinlock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = spinlock.hpp; sourceTree = "<group>"; };
+		0179ABEC1FB9F54E0024AB9E /* proplock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = proplock.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				01427BC61FB75C5C006C09EF /* commitable.hpp */,
-			);
-			path = data;
-			sourceTree = "<group>";
-		};
-		01427BC41FB75C4E006C09EF /* data */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -92,7 +87,6 @@
 		0156F1921FB1413B00169154 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				01427BC41FB75C4E006C09EF /* data */,
 				0156F1931FB1414000169154 /* thread */,
 			);
 			path = src;
@@ -110,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				0156F1951FB1421B00169154 /* spinlock.hpp */,
+				0179ABEC1FB9F54E0024AB9E /* proplock.hpp */,
 			);
 			path = thread;
 			sourceTree = "<group>";
@@ -123,6 +118,7 @@
 			files = (
 				0156F1971FB1421B00169154 /* spinlock.hpp in Headers */,
 				01427BC81FB75C5C006C09EF /* commitable.hpp in Headers */,
+				0179ABED1FB9F5510024AB9E /* proplock.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
