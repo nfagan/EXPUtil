@@ -14,7 +14,9 @@ include_directories(
 
 file(GLOB_RECURSE SOURCES "src/*.cpp" "include/*.hpp" "include/*.h")
 
-add_library(libEXPUtil STATIC ${SOURCES})
+add_library(EXPUtil STATIC ${SOURCES})
+
+install(TARGETS EXPUtil DESTINATION /usr/local/lib)
 
 
 
