@@ -16,7 +16,7 @@ file(GLOB_RECURSE SOURCES "src/*.cpp" "include/*.hpp" "include/*.h")
 
 add_library(EXPUtil STATIC ${SOURCES})
 
-install(TARGETS EXPUtil DESTINATION /usr/local/lib)
+install(TARGETS EXPUtil DESTINATION ${CMAKE_SOURCE_DIR}/lib)
 
 
 
